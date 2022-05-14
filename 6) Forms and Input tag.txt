@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- Bt the help of form we can directly submit the content to other file which is mentioned in action  -->
+    <form action="web.js">
+
+        <h2>First online form created by vivek in a website</h2>
+
+        <!-- divide tag has a similar work as br tag -->
+        <div>
+            Name: <input type="text" name="myname">
+        </div>
+        <br>
+        <div>
+            Your Skills: <input type="text" name="myskills">
+        </div>
+        <br>
+        <div>
+            Your email: <input type="email" name="my email">
+        </div>
+        <br>
+        <div>
+            <input type="date" name="mydate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you Eligible? <input type="checkbox" name="mycheckbox">
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="MyGender"> Female<input type="radio" name="MyGender"> other<input
+                type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Write about Yourself <br> <textarea name="" id="" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <!-- label provide convience to user for selecting the options -->
+            <label for="mycar">Dream Car</label>
+            <select name="Dream car" id="mycar">
+                <option value="Audi">Audi</option>
+                <option value="BmW">BMW</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body>
+
+</html>

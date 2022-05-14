@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id and Classes</title>
+</head>
+<body>
+    <!-- same classes can be declared n number of times of time but id is unique for each divison span etc -->
+    <h3>Id And Classes</h3>
+    <div id="mainbox" class="redbg Blackborder">
+       This is my content of the web page here background is red and border is black 
+    </div>
+   <!-- . for class and # for id span.redbg  and span#red -->
+    <span class="redbg">
+     Span with redbg class 
+    </span>
+    <br>
+    <span id="red">
+        Span with red id 
+    </span>
+    <br>
+    <!-- creating multiple element using emmet (emmet is basically the shortcut to add class and Id) span.myclass1.myclass2.myclass3 -->
+    <span class="myclass1 myclass2 myclass3 myclass4">First</span>
+    <span class="myclass1 myclass2 myclass3 myclass4">Second</span>
+    <span class="myclass1 myclass2 myclass3 myclass4">Third</span>
+    <span class="myclass1 myclass2 myclass3 myclass4">Fourth</span>
+
+</body>
+</html>
